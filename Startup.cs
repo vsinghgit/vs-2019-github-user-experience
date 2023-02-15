@@ -51,7 +51,7 @@ namespace vs_2019_github_user_experience
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context => {
-                    await context.Response.WriteAsync("Hello first change!");
+                    await context.Response.WriteAsync("Hello second time change!");
                 });
             });
         }
